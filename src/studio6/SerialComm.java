@@ -65,7 +65,7 @@ public class SerialComm {
 		 while (true) {
 			 if (port.available()) {
 				 byte a = port.readByte();
-				 System.out.println(a);
+				 System.out.println((char) a);
 //				 byte a = port.readByte(); // MSB
 //				 byte b = port.readByte(); // 
 //				 byte c = port.readByte(); // 
